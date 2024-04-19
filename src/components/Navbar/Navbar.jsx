@@ -6,24 +6,28 @@ const Menu = [
   {
     id: 1,
     name: "Home",
-    link: "/#",
+    link: "/home",
   },
   {
     id: 2,
-    name: "About",
-    link: "/#about",
+    name: "Services",
+    link: "/servies",
+    
   },
   {
     id: 3,
     name: "Menu",
-    link: "/#menu",
+    link: "/menu",
   },
   {
     id: 3,
-    name: "Services",
-    link: "/#services",
+    name: "Contact",
+    link: "/contact",
   },
 ];
+
+
+
 const Navbar = () => {
   return (
     <>
@@ -31,8 +35,8 @@ const Navbar = () => {
         <div className="container py-3 sm:py-0">
           <div className="flex justify-between items-center">
             <div>
-              <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2">
-                <img src={Logo} alt="Logo" className="w-16" />
+              <a href="#/home.jsx" className="font-bold text-2xl sm:text-3xl flex gap-2">
+                <img src={Logo} alt="Logo" className="w-23" />
               </a>
             </div>
             <div className="flex justify-between items-center gap-4">
@@ -48,7 +52,7 @@ const Navbar = () => {
                   </li>
                 ))}
               </ul>
-              <button className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-1 px-4 rounded-full">
+              <button className="hover:scale-105 duration-200 text-white py-1 px-4 rounded-full">
                 Order
               </button>
             </div>
