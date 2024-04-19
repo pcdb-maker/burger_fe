@@ -1,26 +1,26 @@
 import React from "react";
-import BiryaniImg1 from "../../assets/burger/burger1.png";
-import BiryaniImg2 from "../../assets/burger/burger2.png";
-import BiryaniImg3 from "../../assets/burger/burger3.png";
+import BurgerImg1 from "../../assets/burger/burger1.png";
+import BurgerImg2 from "../../assets/burger/burger2.png";
+import BurgerImg3 from "../../assets/burger/burger3.png";
 import Vector from "../../assets/vector.png";
 
 const ImageList = [
   {
     id: 1,
-    img: BiryaniImg1,
+    img: BurgerImg1,
   },
   {
     id: 2,
-    img: BiryaniImg2,
+    img: BurgerImg2,
   },
   {
     id: 3,
-    img: BiryaniImg3,
+    img: BurgerImg3,
   },
 ];
 
 const Hero = () => {
-  const [imageId, setImageId] = React.useState(BiryaniImg1);
+  const [imageId, setImageId] = React.useState(BurgerImg1);
 
   const bgImage = {
     backgroundImage: `url(${Vector})`,
@@ -50,9 +50,9 @@ const Hero = () => {
                       filter: "drop-shadow(4px 4px 0 rgba(255, 255, 255,1))",
                     }}
                   >
-                    Burger
+                    Big
                   </span>{" "}
-                  King
+                  Burger
                 </h1>
                 <p data-aos="fade-up" className="text-sm ">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -70,7 +70,7 @@ const Hero = () => {
                 <div data-aos="fade-left" data-aos-delay="300">
                   <img
                     src={imageId}
-                    alt="biryani img"
+                    alt="Burger img"
                     className="max-w-[430px] hover:scale-105 duration-300 w-full mx-auto drop-shadow-[-6px_20px_15px_rgba(0,0,0,1)]"
                   />
                 </div>
@@ -83,13 +83,13 @@ const Hero = () => {
                         onClick={() => {
                           setImageId(
                             item.id === 1
-                              ? BiryaniImg1
+                              ? BurgerImg1
                               : item.id === 2
-                              ? BiryaniImg2
-                              : BiryaniImg3
+                              ? BurgerImg2
+                              : BurgerImg3
                           );
                         }}
-                        alt="biryani img"
+                        alt="Burger img"
                         className="max-w-[80px] h-[80px] object-contain inline-block hover:scale-105 duration-200"
                       />
                     </div>
