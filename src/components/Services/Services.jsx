@@ -22,7 +22,7 @@ const ServicesData = [
   {
     id: 3,
     img: Img2,
-    name: "Veg Burger",
+    name: "Vegetarian Burger",
     description:
       "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet",
     aosDelay: "500",
