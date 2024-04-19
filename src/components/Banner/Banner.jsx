@@ -15,7 +15,7 @@ const Banner = () => {
               <div data-aos="flip-up">
                 <img
                   src={BurgerImg}
-                  alt="biryani img"
+                  alt="Burger img"
                   className="max-w-[430px] w-full mx-auto drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)]"
                 />
               </div>
