@@ -17,7 +17,7 @@ const Footer = () => {
           <div className=" py-8 px-4 ">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
               <img src={footerLogo} alt="Logo" className="w-16" />
-              Burger King
+              Big Burgers
             </h1>
             <p className="">
               Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
@@ -26,7 +26,7 @@ const Footer = () => {
             <br />
             <div className="flex items-center gap-3">
               <FaLocationArrow />
-              <p>Melbourne, Uttar Australia</p>
+              <p>Melbourne, Australia</p>
             </div>
             <div className="flex items-center gap-3 mt-3">
               <FaMobileAlt />
@@ -90,7 +90,7 @@ const Footer = () => {
         </div>
         <div>
           <div className="text-center py-10 border-t-2 border-gray-300/50">
-            @copyright 2024 || The Coding Journey
+            Completed for non-commerical purposes in 2024|| Chloe O
           </div>
         </div>
       </section>
