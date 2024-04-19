@@ -46,7 +46,7 @@ const Testimonial = () => {
         <div className="container">
           {/* Header  */}
           <HeaderTitle
-            title="Testimonial"
+            title="Testimonials"
             subtitle="What our customers say"
             description={
               "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis delectus architecto error nesciunt,"

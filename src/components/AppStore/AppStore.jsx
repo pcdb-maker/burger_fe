@@ -13,7 +13,7 @@ const AppStore = () => {
                 data-aos="zoom-in"
                 className="text-xl sm:text-4xl font-semibold text-center text-gray-700"
               >
-                Burger King is available for Android and IOS
+                Order now on the Big Burger App! <br/> Available for Android and IOS
               </h1>
               <div className="flex flex-wrap justify-center items-center">
                 <a href="#">
